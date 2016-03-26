@@ -15,5 +15,12 @@
 //    For example, given array A = [3, 8, 9, 7, 6] and K = 3, the function should return [9, 7, 6, 3, 8].\
 
 function cyclicRotation(arr, rotation){
-    //Your code here...
+    for (var i=0; i < rotation; i++){
+     	var myArray = arr.pop();
+    //The pop() method removes the last element from an array and returns that element.	
+    	arr.unshift(myArray);
+    }
+     console.log(arr);
 }
+
+cyclicRotation([2,3,4,5,6,7],1);
