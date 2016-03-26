@@ -23,7 +23,13 @@
 			 		var nounInput =document.getElementById("noun").value;
 			 		var adjectiveInput =document.getElementById("adjective").value;
 			 		var nameInput = document.getElementById("person").value;
-			 		$("#story").append("<p>" + nameInput + " really likes " + adjectiveInput + " " + nounInput + ".</p>")
+			 		$("#story").append("<p>" + nameInput + " really likes " + adjectiveInput + " " + nounInput + ".</p>");
+			 		//Bonus
+			 		var myObject = {};
+			 		myObject.noun = nameInput;
+			 		myObject.adjective = adjectiveInput
+			 		myObject.person = nameInput
+			 		console.log(myObject);
 			 	}
 			 </script>
 		</body>
