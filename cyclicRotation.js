@@ -17,10 +17,12 @@
 function cyclicRotation(arr, rotation){
     for (var i=0; i < rotation; i++){
      	var myArray = arr.pop();
-    //The pop() method removes the last element from an array and returns that element.	
+    	//The pop() method removes the last element from an array and returns that element.	
     	arr.unshift(myArray);
+    	//The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
     }
      console.log(arr);
 }
 
 cyclicRotation([2,3,4,5,6,7],1);
+
