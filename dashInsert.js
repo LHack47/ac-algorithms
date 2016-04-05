@@ -20,11 +20,27 @@ console.log(result) // "44"
 var result = dashInsert("0");
 console.log(result) // "0"
 
-var result = isBigger("13");
+var result = dashInsert("13");
 console.log(result) // "1-3"
 
 **/
 
 function dashInsert(str) {
-	// Your code
+	//first create an empty variable to hold the new string
+	var finalString = " ";
+	//turn the number (given as a parameter) into a string and separate the characters
+	var numberString = str.toString().split('');
+	//create a for loop that runs through all of the numbers in the string
+	for (var i = 0; i < numberString.length; i++) {
+		//inside the for loop, create an if statement that tests if the number in the array is odd AND if the number next to it is odd
+		if(numberString[i] % 2 === 1 && numberString[i+1] % 2 === 1) {
+			//the code block should add the number in the i position and a dash if the condition is true
+			finalString += numberString[i] + '-';
+		}
+		else {
+			//the code should should just add the number in position i to the finalString variable
+			finalString += numberString[i];
+		}
+	}
+	console.log(finalString);
 }
