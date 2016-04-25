@@ -22,3 +22,4 @@ var newInv = [
 ];
 
 updateInventory(currentInv, newInv);
+
