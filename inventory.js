@@ -6,10 +6,10 @@
 
 function updateInventory(arr1, arr2) {
 
-    // Variable for location of the item
+    // Create a variable for location of the item
     var index;
 
-    // A helper method to return the index of a specified product (undefined if not found)
+    // A helper function to return the index of a specified item (undefined if not found)
     var getProductIndex = function (name) {
         for (var i = 0; i < this.length; i++) {
             if (this[i][1] === name) {
@@ -49,10 +49,7 @@ function updateInventory(arr1, arr2) {
 
     return arr1;
 }
- 
-    //If these items match, add number of item to output array
-    //If a new array item does not match, push it into output array
-    //Sort the output array into alphabetical order based on the item
+
 }
 
 // Example inventory lists
