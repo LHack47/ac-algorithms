@@ -19,7 +19,7 @@ function sumFibonacci(num) {
     var finalNumber = 0;
     //Use a while loop to make sure the current number is not greater than the parameter
     while (currentNumber <= num) {
-    //Use a conditional to make sure that the number is odd (using the module)
+    //Use a conditional to make sure that the number is odd (using the modulo)
         if (currentNumber % 2 !== 0) {
     //If it is odd, push the number to the final number
             finalNumber += currentNumber;
