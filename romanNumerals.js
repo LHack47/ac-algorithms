@@ -32,13 +32,13 @@ function speakRoman(num) {
     // Continue to loop while the value at the current index will fit into num
     while (numberValue[i] <= num) {
       // Add the Roman numeral to the finalRoman string 
-      romanized += romanNumeral[i];
+      finalRoman += romanNumeral[i];
       //Decrease num by the numberValue of that particular index each time.
       num -= numberValue[i];
     }
   }
 
-  console.log(romanized);
+  console.log(finalRoman);
 }
 
 
