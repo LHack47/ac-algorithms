@@ -3,6 +3,11 @@
 Welcome to Algorithm Problems. This repository will be updated every morning with a new
 code challenge.
 
+Contributing to Algorithms questions
+------------------------------------
+
+Please create a fork of this repo. Add a new file/folder for each question. Make a pull request to master and tag @yonet on your pull request. Thank you for contributing. 
+
 Using this Repository
 ---------------------
 You'll find each day's algorithm problem in its own folder/file.
