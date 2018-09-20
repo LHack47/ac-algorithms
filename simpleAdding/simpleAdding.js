@@ -14,7 +14,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 To check if it is an integer
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
 
-Alternatively, look into the remainder operator (%).
+Alternatively, look into the remainder operator (%) at
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder
 e.g. console.log(7%3); // 1
 console.log(12%5) // 2
 console.log(1.3%1) // 0.3 */
