@@ -37,9 +37,28 @@ console.log(result) // -1
 
 **/
 
+//inputs: two numbers, a + b, parameters
+//output: true, false, 0, or -1
+
+//purpose: evaluate a and b to see if they are numbers AND how they compare to one another (ie, if one is bigger)
 
 
 function isBigger(a, b) {
-	//Your code here
-	
+	//conditional statement to test if a > b
+	//test is a < b
+	//if a === b
+	//if a or b are not numbers
+	var result = '';
+	if (typeof a === "number" && typeof b === "number"){
+		if ( a > b ) {
+			result = true;
+		} else if ( a < b ){
+			result = false;
+		} else {
+			result = 0;
+		}
+	} else {
+		result = -1;
+	}
+	return result;
 }
