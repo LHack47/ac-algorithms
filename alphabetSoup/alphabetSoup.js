@@ -33,7 +33,22 @@ console.log(result) // "ghimmnorstyy"
 
 **/
 
+//input: a string
+//output: a string, alphabetized
+//purpose: to alphabetize the list of letters in a given string
+//str is our input parameter
 function alphabetSoup(str) {
-	//Your code here
-	
+	//turn the string into an array of characters, using split, store the resulting array in a variable, split method takes in a delimiter -- ''
+	//Sort the array
+	//Join the element in the array back into a string, the argument for the .join() method will be ''
+	//Get rid of the spaces in the string using trim
+	var characters = str.split('').sort().join('').trim();
+
+	//Second option
+	// var characters = str.split('');
+	// var array = characters.sort();
+	// var newArray = array.join('');
+	// var newString = newArray.trim();
+
+	return newString;
 }
